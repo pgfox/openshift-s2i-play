@@ -77,7 +77,7 @@
                             http://activemq.apache.org/slow-consumer-handling.html
                         -->
                         <pendingMessageLimitStrategy>
-                            <constantPendingMessageLimitStrategy limit="1000" />
+                            <constantPendingMessageLimitStrategy limit="2000" />
                         </pendingMessageLimitStrategy>
                     </policyEntry>
                 </policyEntries>
